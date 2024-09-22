@@ -17,4 +17,4 @@ spring:
 
 logging:
   level:
-    org.springframework.cache: trace # Redis ??? ?? ??? ????? ??
+    org.springframework.cache: trace
