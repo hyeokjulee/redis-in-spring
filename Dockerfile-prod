@@ -1,5 +1,6 @@
 FROM openjdk:17-jdk
 
 COPY build/libs/*SNAPSHOT.jar app.jar
+COPY real-application2.yml /app/config/bookitaka/real-application2.yml
 
 ENTRYPOINT ["java", "-jar", "-Dspring.profiles.active=prod", "/app.jar"]
