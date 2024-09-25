@@ -9,7 +9,7 @@ public class RedisInSpringApplication {
 
 	public static final String APPLICATION_LOCATIONS = "spring.config.location="
 			+ "classpath:application.yml,"
-			+ "/app/config/bookitaka/real-application2.yml";
+			+ "/app/config/redis-spring/real-application.yml";
 
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(RedisInSpringApplication.class)
